@@ -1,0 +1,14 @@
+!table
+!version 400
+!charset WindowsLatin1
+!edit_version 450
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 6
+    Name Char (100) ;
+    LOCALITY_ID Integer ;
+    Snapped SmallInt ;
+    NT_User Char (20) ;
+    Timestamp Date ;
+    SW_MEMBER Integer ;
