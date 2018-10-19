@@ -1,4 +1,4 @@
-# Housing Affordability for Benefit Claimants App
+ # Housing Affordability for Benefit Claimants App
 
 ## Introduction
 
@@ -28,13 +28,14 @@ NOTE: When reproducing the code Data Analysis has to be run before Data Visualis
 
 ### Data Analysis
 
-This folder contains the code that processes and formats the data that is stored in the Input_Geographies and Input_Rent Data folders.
+This folder contains the code that processes and formats the data that is stored in the
+Input_Geographies and Input_Rent Data folders.
 
 The code needs to run from the work directory and input data have to be stored in the folders named as above.
 
-The main steps in the code are:
-__1. Merging datsets__ (spatial with spatial, and spatial with rent data)
-__2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies based on spatial intersections)
-__3. Creating summary tables__(calculating aveage rent values for different geography types)
+The main steps in the code are:  
+__1. Merging datsets__ (spatial with spatial, and spatial with rent data)  
+__2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies based on spatial intersections)  
+__3. Creating summary tables__(calculating aveage rent values for different geography types)  
 
 ### Data Visualisation
