@@ -10,7 +10,7 @@ https://davidsagi.shinyapps.io/Affordability/
 
 An overview of the topic can be accessed from here:
 
-LINK TO GOOGLE SLIDES!
+__LINK TO GOOGLE SLIDES!__
 
 A description of the GDS Data Science Accelerator can be found here:
 
@@ -22,9 +22,9 @@ The repository is divided into a _Data Analysis_ and a _Data Visualisation_ fold
 
 The _Data Analysis_ folder contains all the input files (geogrpahies and rent data) and the code that formats it prior to visualisation.
 
-The _Data Visualisation_ folder only contains code that is neccessary for the Shiny app to run.
+The _Data Visualisation_ folder only contains code that is neccessary for the __Shiny__ app to run.
 
-NOTE: When reproducing the code _Data Analysis_ has to be run before _Data Visualisation_.
+NOTE: When reproducing the code, _Data Analysis_ has to be run before _Data Visualisation_.
 
 ### Data Analysis
 
@@ -34,13 +34,16 @@ _Input_Geographies_ and _Input_Rent Data_ folders.
 The code needs to run from the set work directory and input data have to be stored in the folders named as above.
 
 The main steps in the code are:  
+  
 __1. Merging datsets__ (spatial with spatial, and spatial with rent data)  
-__2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies)  
+  
+__2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies) 
+  
 __3. Creating summary tables__(calculating aveage rent values for different geography types)  
 
 The code outputs files into two folders: _Prepared_Data_ throughout the code and _Deploy_ in one block at the end.  
 
-Files in the _Deploy_ folder are needed to run the __Shiny__ app in the _Data Visualisation_ folder. However these are also saved there in a sub-folder.
+Files in the _Deploy_ folder are needed to run the __Shiny__ app in the _Data Visualisation_ folder. 
 
 ### Data Visualisation
 
