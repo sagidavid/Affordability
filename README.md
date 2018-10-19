@@ -18,24 +18,30 @@ https://www.gov.uk/government/publications/data-science-accelerator-programme/in
 
 ## Repository Structure
 
-The repository is divided into a Data Analysis and a Data Visualisation folder.
+The repository is divided into a _Data Analysis_ and a _Data Visualisation_ folder.
 
-The Data Analysis folder contains all the input files (geogrpahies and rent data) and the code that formats it prior to visualisation.
+The _Data Analysis_ folder contains all the input files (geogrpahies and rent data) and the code that formats it prior to visualisation.
 
-The Data Visualisation folder only contains code that is neccessary for the Shiny app to run.
+The _Data Visualisation_ folder only contains code that is neccessary for the Shiny app to run.
 
-NOTE: When reproducing the code Data Analysis has to be run before Data Visualisation
+NOTE: When reproducing the code _Data Analysis_ has to be run before _Data Visualisation_.
 
 ### Data Analysis
 
 This folder contains the code that processes and formats the data that is stored in the
-Input_Geographies and Input_Rent Data folders.
+_Input_Geographies_ and _Input_Rent Data_ folders.
 
-The code needs to run from the work directory and input data have to be stored in the folders named as above.
+The code needs to run from the set work directory and input data have to be stored in the folders named as above.
 
 The main steps in the code are:  
 __1. Merging datsets__ (spatial with spatial, and spatial with rent data)  
-__2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies based on spatial intersections)  
+__2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies)  
 __3. Creating summary tables__(calculating aveage rent values for different geography types)  
 
+The code outputs files into two folders: _Prepared_Data_ throughout the code and _Deploy_ in one block at the end.  
+
+Files in the _Deploy_ folder are needed to run the __Shiny__ app in the _Data Visualisation_ folder. However these are also saved there in a sub-folder.
+
 ### Data Visualisation
+
+This folder contains the codes and input data that run with the __Shiny__ app. It can run directly from R Studio.
