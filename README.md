@@ -20,7 +20,7 @@ https://www.gov.uk/government/publications/data-science-accelerator-programme/in
 
 The repository is divided into a _Data Analysis_ and a _Data Visualisation_ folder.
 
-The _Data Analysis_ folder contains all the input files (geogrpahies and rent data) and the code that formats it prior to visualisation.
+The _Data Analysis_ folder contains all the input files (geogrpahies and rent data) and the code needed prior to visualisation.
 
 The _Data Visualisation_ folder only contains code that is neccessary for the __Shiny__ app to run.
 
