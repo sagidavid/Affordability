@@ -28,8 +28,7 @@ NOTE: When reproducing the code, _Data Analysis_ has to be run before _Data Visu
 
 ### Data Analysis
 
-This folder contains the code that processes and formats the data that is stored in the
-_Input_Geographies_ and _Input_Rent Data_ folders.
+This folder contains the code that processes and formats the data that is stored in the  _Input_Geographies_ and _Input_Rent Data_ folders.
 
 The code needs to run from the set work directory and input data have to be stored in the folders named as above.
 
