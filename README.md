@@ -1,6 +1,6 @@
  # Housing Affordability for Benefit Claimants App
 
-## Introduction
+## Overview
 
 This repository was made for the app that I have developed for the GDS Data Science Accelerator.
 
