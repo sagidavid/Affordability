@@ -20,9 +20,9 @@ https://www.gov.uk/government/publications/data-science-accelerator-programme/in
 
 The repository is divided into a _Data Analysis_ and a _Data Visualisation_ folder.
 
-The _Data Analysis_ folder contains all the input files (geogrpahies and rent data) and the code needed prior to visualisation.
+The _Data Analysis_ folder contains all the input files (geographies and rent data) and the code needed prior to visualisation.
 
-The _Data Visualisation_ folder only contains code that is neccessary for the __Shiny__ app to run.
+The _Data Visualisation_ folder only contains code that is necessary for the __Shiny__ app to run.
 
 NOTE: When reproducing the code, _Data Analysis_ has to be run before _Data Visualisation_.
 
@@ -35,11 +35,11 @@ The code needs to run from the set work directory and input data have to be stor
 
 The main steps in the code are:  
   
-__1. Merging datsets__ (spatial with spatial, and spatial with rent data)  
+__1. Merging datasets__ (spatial with spatial, and spatial with rent data)  
   
 __2. Spatial analysis__ (defining Urban/Rural, Inland/Coastal and English/Scottish/Welsh geographies) 
   
-__3. Creating summary tables__(calculating aveage rent values for different geography types)  
+__3. Creating summary tables__ (calculating average rent values for different geography types)  
 
 The code outputs files into two folders: _Prepared_Data_ throughout the code and _Deploy_ in one block at the end.  
 
