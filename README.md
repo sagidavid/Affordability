@@ -10,7 +10,7 @@ https://davidsagi.shinyapps.io/Affordability/
 
 An overview of the topic can be accessed from here:
 
-__LINK TO GOOGLE SLIDES, PUT A VERSION OF THE APPPLICATION ON GOOGLE DOCS AND ADD HERE!__
+https://docs.google.com/presentation/d/1tO6AaKrQLqTcsgl5JKJGfSKVsOZGGMzKvSA93Yz_cPc/edit?usp=sharing
 
 A description of the GDS Data Science Accelerator can be found here:
 
